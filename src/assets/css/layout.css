@@ -1,0 +1,131 @@
+html,
+body,
+div,
+span,
+ul,
+li,
+i,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+body {
+  font-size: 0.875rem;
+}
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  position: relative;
+  z-index: 100;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #babdc2;
+  background-clip: padding-box;
+  min-height: 28px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-corner {
+  background: #babdc2;
+}
+.common-layout .common-sidebar {
+  transition: all 0.3s;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+  color: #fff;
+  background-color: #304156;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.common-layout .common-sidebar .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  font-weight: 700;
+  height: 60px;
+  justify-content: center;
+}
+.common-layout .common-sidebar .logo img {
+  width: 30px;
+  height: 30px;
+}
+.common-layout .common-sidebar .el-menu {
+  border-right: 0;
+}
+.common-layout .common-header {
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.common-layout .common-header .collapse-icon {
+  cursor: pointer;
+  font-size: 1.125rem;
+  margin-right: 15px;
+}
+.common-layout .common-header .breadcrumb {
+  flex: 2;
+}
+.common-layout .common-header .comm-header-tool {
+  margin: 0 10px;
+  display: flex;
+}
+.common-layout .common-header .comm-header-tool i {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.common-layout .overflow-scroll {
+  overflow-y: auto;
+  display: block;
+  height: 100vh;
+}
+.common-layout .common-main {
+  background: #f0f2f5;
+  padding: 10px;
+  overflow: hidden;
+}
+.common-layout .common-main > div {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.common-layout .tag-tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+.common-layout .tag-tabs .el-tabs__content {
+  display: none;
+}
+.common-layout .tag-tabs .el-tabs__nav-wrap::after {
+  display: none;
+}
+.common-layout .tag-tabs .el-tabs__item {
+  padding: 0 10px !important;
+}
+.common-layout .tag-tabs .el-tabs__header {
+  margin: 0;
+}
+.common-layout .tag-tabs .tabs-label i {
+  margin-left: 3px;
+}
+.common-layout .tag-tabs .clear-tag {
+  cursor: pointer;
+}
+.common-layout .quit-full {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+/*.el-popper {*/
+/*  max-width: 400px;*/
+/*}*/

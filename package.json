@@ -1,0 +1,31 @@
+{
+  "name": "lowcode-survey",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@tinymce/tinymce-vue": "^6.1.0",
+    "element-plus": "^2.9.0",
+    "pinia": "^2.3.0",
+    "tinymce": "^7.6.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.5.0",
+    "vuedraggable-es": "^4.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "typescript": "~4.5.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
