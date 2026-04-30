@@ -1,0 +1,401 @@
+{
+  "id": "3789928",
+  "name": "问卷",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8766356",
+      "name": "nps",
+      "font_class": "nps",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "538856",
+      "name": "纯文本TAG",
+      "font_class": "text",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "1447332",
+      "name": "拖拽",
+      "font_class": "tuozhuai",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "4347521",
+      "name": "icon_预览",
+      "font_class": "preview",
+      "unicode": "eb8a",
+      "unicode_decimal": 60298
+    },
+    {
+      "icon_id": "4518043",
+      "name": "技术服务",
+      "font_class": "json",
+      "unicode": "ebce",
+      "unicode_decimal": 60366
+    },
+    {
+      "icon_id": "4686545",
+      "name": "刷新",
+      "font_class": "refresh",
+      "unicode": "ec08",
+      "unicode_decimal": 60424
+    },
+    {
+      "icon_id": "4686546",
+      "name": "保存",
+      "font_class": "save",
+      "unicode": "ec09",
+      "unicode_decimal": 60425
+    },
+    {
+      "icon_id": "15969351",
+      "name": "图片投票",
+      "font_class": "tupiantoupiao",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "15969352",
+      "name": "自增表格",
+      "font_class": "zizengbiaoge",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "15969353",
+      "name": "城市地址",
+      "font_class": "chengshidizhi",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "15969354",
+      "name": "专业",
+      "font_class": "zhuanye",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "15969355",
+      "name": "矩阵打分",
+      "font_class": "juzhendafen",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "15969356",
+      "name": "多选题",
+      "font_class": "duoxuanti",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "15969399",
+      "name": "复制",
+      "font_class": "lujing182",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "15969400",
+      "name": "移动",
+      "font_class": "lujing172",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "15969401",
+      "name": "删除",
+      "font_class": "lujing58",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "15969402",
+      "name": "添加逻辑",
+      "font_class": "zu86",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "15969500",
+      "name": "电脑",
+      "font_class": "lujing195",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "15969501",
+      "name": "手机",
+      "font_class": "lujing141",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "15969313",
+      "name": "矩阵量表",
+      "font_class": "juzhenliangbiao",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "15969314",
+      "name": "分页",
+      "font_class": "fenye",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "15969315",
+      "name": "分割线",
+      "font_class": "fengexian",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "15969316",
+      "name": "行业",
+      "font_class": "hangye",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "15969318",
+      "name": "量表题",
+      "font_class": "liangbiaoti",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "15969319",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "15969320",
+      "name": "横向填空",
+      "font_class": "hengxiangtiankong",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "15969321",
+      "name": "矩阵选择",
+      "font_class": "juzhenxuanze",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "15969322",
+      "name": "矩阵填空",
+      "font_class": "juzhentiankong",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "15969323",
+      "name": "评价题",
+      "font_class": "pingjiati",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "15969324",
+      "name": "填空题",
+      "font_class": "tiankongti",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "15969325",
+      "name": "逻辑",
+      "font_class": "luoji",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "15969326",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "15969327",
+      "name": "下拉题",
+      "font_class": "xialati",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "15969328",
+      "name": "排序题",
+      "font_class": "paixuti",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "15969330",
+      "name": "图片选择",
+      "font_class": "tupianxuanze",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "15969331",
+      "name": "职业",
+      "font_class": "zhiye",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "15969332",
+      "name": "日期",
+      "font_class": "riqi",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "15969333",
+      "name": "文字投票",
+      "font_class": "wenzitoupiao",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "15969334",
+      "name": "姓名",
+      "font_class": "xingming",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "15969335",
+      "name": "学历",
+      "font_class": "xueli",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "15969336",
+      "name": "单选题",
+      "font_class": "danxuanti",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "15969338",
+      "name": "NPS题",
+      "font_class": "NPSti",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "15969339",
+      "name": "性别",
+      "font_class": "xingbie",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "15969340",
+      "name": "文件上传",
+      "font_class": "wenjianshangchuan",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "15969341",
+      "name": "样式",
+      "font_class": "yangshi",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "15969342",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "15969343",
+      "name": "年龄",
+      "font_class": "nianling",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "15969344",
+      "name": "题库",
+      "font_class": "lujing103",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "15969345",
+      "name": "院校",
+      "font_class": "yuanxiao",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "15969346",
+      "name": "题型",
+      "font_class": "tixing",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "15969347",
+      "name": "比重题",
+      "font_class": "bizhongti",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "15969348",
+      "name": "地理位置",
+      "font_class": "diliweizhi",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "15969349",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "15969350",
+      "name": "打分题",
+      "font_class": "dafenti",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "4354249",
+      "name": "形状-矩形",
+      "font_class": "xingzhuang-juxing",
+      "unicode": "eb97",
+      "unicode_decimal": 60311
+    },
+    {
+      "icon_id": "4354255",
+      "name": "形状-椭圆形",
+      "font_class": "xingzhuang-tuoyuanxing",
+      "unicode": "eb99",
+      "unicode_decimal": 60313
+    }
+  ]
+}
