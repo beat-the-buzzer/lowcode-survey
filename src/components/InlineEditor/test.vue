@@ -41,7 +41,7 @@ const props = defineProps({
 const emit = defineEmits(["update:modelValue", "change"]);
 
 const dialogVisible = ref(false);
-const publicPath =  "/"; // import.meta.env.VITE_BASE_URL ||
+const publicPath = import.meta.env.VITE_BASE_URL || "/";
 const active = ref(false);
 const id = ref(buildShortUUID("editor"));
 
@@ -50,7 +50,7 @@ const simple_init: any = {
   selector: `#${id.value}`,
   inline: true,
   auto_focus: true,
-  language_url: publicPath + "static/plugins/tinymce/langs/zh_CN.js", // 中文语言包路径
+  language_url: publicPath + "/static/plugins/tinymce/langs/zh_CN.js", // 中文语言包路径
   language: "zh_CN",
   skin_url: publicPath + "static/plugins/tinymce/skins/ui/oxide", // 编辑器皮肤样式
   content_css: false,

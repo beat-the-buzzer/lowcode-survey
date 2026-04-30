@@ -1,11 +1,11 @@
 import type { Editor, RawEditorOptions } from "tinymce";
 import { custom_image_upload_handler } from "./utils";
 
-const publicPath = "/"; // import.meta.env.VITE_BASE_URL || 
+const publicPath = import.meta.env.VITE_BASE_URL || "/";
 
 export const inline_init: RawEditorOptions = {
   inline: true,
-  language_url: publicPath + "static/plugins/tinymce/langs/zh_CN.js", // 中文语言包路径
+  language_url: publicPath + "/static/plugins/tinymce/langs/zh_CN.js", // 中文语言包路径
   language: "zh_CN",
   skin_url: publicPath + "static/plugins/tinymce/skins/ui/oxide", // 编辑器皮肤样式
   content_css: false,

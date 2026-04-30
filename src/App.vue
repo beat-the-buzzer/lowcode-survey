@@ -1,20 +1,14 @@
-<template>
-  <div id="app-box">
-    <RouterView />
-  </div>
-</template>
-
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'App'
-});
+<script setup lang="ts">
+import zhCn from "element-plus/dist/locale/zh-cn.mjs";
+import { RouterView } from "vue-router";
 </script>
 
-<style>
-html, body {
-  padding: 0;
-  margin: 0;
-}
-</style>
+<template>
+  <el-config-provider :locale="zhCn">
+    <div id="app">
+      <RouterView />
+    </div>
+  </el-config-provider>
+</template>
+
+<style lang="less" scoped></style>

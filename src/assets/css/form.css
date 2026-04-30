@@ -5,12 +5,12 @@
   margin: 0 auto;
 }
 .components-list {
-  width: 300px;
-  min-width: 300px;
+  width: 230px;
+  min-width: 230px;
   overflow-y: auto;
+  /* height: calc(100vh - 50px); */
   position: relative;
-  text-align: left;
-
+  /* overflow-x: hidden; */
 }
 .components-list .title {
   padding: 8px 12px;
@@ -30,10 +30,10 @@
   margin: 0;
 }
 .components-list ul li {
-  font-size: 14px;
+  font-size: 0.875rem;
   display: flex;
   width: 100px;
-  line-height: 28px;
+  line-height: 1.75rem;
   position: relative;
   float: left;
   left: 0;
@@ -84,7 +84,7 @@
   position: absolute;
   right: 5px;
   top: 5px;
-  font-size: 14px;
+  font-size: 0.875rem;
   cursor: pointer;
 }
 .use-template .list {
@@ -128,14 +128,14 @@
   flex: 2;
   /*width:calc(100% - 500px);*/
   /* border-left: 1px solid #e0e0e0;
-    border-right: 1px solid #e0e0e0; */
+  border-right: 1px solid #e0e0e0; */
   margin: 0 5px;
   /* overflow: hidden; */
 }
 .main-body .empty-tips {
   text-align: center;
   width: 100%;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ccc;
   position: absolute;
   left: 0;
@@ -164,7 +164,7 @@
   margin-bottom: 10px;
 }
 .sidebar-tools h3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -201,7 +201,7 @@
 .ace-dialog .el-drawer__header {
   margin: 0;
   color: #e9e9e9;
-  font-size: 12px;
+  font-size: 0.75rem;
   padding: 3px 10px;
   background: #1e1e1e;
 }
@@ -267,7 +267,7 @@
 .design-form .tooltip {
   display: none;
   position: absolute;
-  font-size: 12px;
+  font-size: 0.75rem;
   top: 0;
   right: 0;
   z-index: 5;
@@ -301,7 +301,7 @@
   background: #66b1ff;
   color: #fff;
   text-align: center;
-  line-height: 24px;
+  line-height: 1.5rem;
   cursor: move;
 }
 .design-form .drag {
@@ -391,7 +391,7 @@
   display: none !important;
 }
 .upload-style .el-upload--picture .icon-plus {
-  font-size: 28px;
+  font-size: 1.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -413,10 +413,6 @@
   padding-top: 0;
 }
 
-.survey-preview-dialog .el-dialog__headerbtn {
+.survey-preview-dialog .el-dialog__headerbtn{
   font-size: 30px;
-}
-
-.main-form {
-  text-align: left;
 }

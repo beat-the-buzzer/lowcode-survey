@@ -48,7 +48,7 @@ import "tinymce/plugins/quickbars";
 import "tinymce/plugins/save"; // 保存
 import "tinymce/plugins/searchreplace"; //查询替换
 import "tinymce/plugins/table"; // 插入表格插件
-// import "tinymce/plugins/template"; //插入模板
+import "tinymce/plugins/template"; //插入模板
 import "tinymce/plugins/visualblocks";
 import "tinymce/plugins/visualchars";
 import "tinymce/plugins/wordcount"; // 字数统计插件
@@ -60,11 +60,11 @@ const props = defineProps({
 });
 const emit = defineEmits(["update:modelValue", "change"]);
 const dialogVisible = ref(false);
-const publicPath = "/"; // import.meta.env.VITE_BASE_URL ||
+const publicPath = import.meta.env.VITE_BASE_URL || "/";
 // 配置
 const simple_init = {
   inline: true,
-  language_url: publicPath + "static/plugins/tinymce/langs/zh_CN.js", // 中文语言包路径
+  language_url: publicPath + "/static/plugins/tinymce/langs/zh_CN.js", // 中文语言包路径
   language: "zh_CN",
   skin_url: publicPath + "static/plugins/tinymce/skins/ui/oxide", // 编辑器皮肤样式
   content_css: false,
@@ -164,15 +164,15 @@ defineExpose({
   z-index: 2200 !important; /*el-dialog层为2014，默认时在el弹出层显示不了编辑器里的弹窗*/
 }
 </style>
-<style scoped>
+<style lang="less" scoped>
 .inline-editor {
   border: 1px solid transparent;
   padding: 5px;
   margin: 5px;
-}
-:deep(img, svg, canvas) {
+  :deep(img, svg, canvas) {
     display: inline-block !important;
   }
+}
 .inline-editor:hover {
   border: 1px dashed #335dff;
 }
