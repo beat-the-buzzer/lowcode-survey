@@ -1,23 +1,6 @@
 import request from "@/utils/request";
 
 
-// 保存功能（新）
-export const doSurveySave = (pjmbmcb_id, params: any) =>
-  request.post<any>(`/jwglxt/jw/controller/common/pjzbmbwh/insertZbmbxx?pjmbmcb_id=${pjmbmcb_id}`, params);
-
-  // {headers: {
-  //   // "Content-type": "multipart/form-data;charset=UTF-8",
-  //   "Content-Type": "application/json",
-  //   // "Content-Type": "application/x-www-form-urlencoded;",
-  // }}
-
-export const getZbdjmxxx = (params: any) =>
-  request.post<any>(`/jwglxt/jw/controller/common/pjzbmbwh/getZbdjmxxx`, params);
-
-export const getZbmbxx = (pjmbmcb_id, params: any) =>
-  request.get<any>(`/jwglxt/jw/controller/common/pjzbmbwh/getZbmbxx?pjmbmcb_id=${pjmbmcb_id}`, params);
-
-
 
 export const getOptionList = (params: any) =>
   request.post<any>(`/dgsx/sxpjgl/xxmbwh/getOptionList.zf`, params);

@@ -11,7 +11,7 @@ import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import WindiCSS from "vite-plugin-windicss";
 import legacy from "@vitejs/plugin-legacy";
-import path from "node:path";
+// import path from "node:path";
 import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 
 const CWD = process.cwd();
@@ -34,11 +34,11 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
         resolvers: [ElementPlusResolver(), VantResolver()],
         directoryAsNamespace: true,
       }),
-      legacy({
-        targets: ["chrome 52"],
-        additionalLegacyPolyfills: ["regenerator-runtime/runtime"],
-        modernPolyfills: ["es.promise.finally", "es/array", "es/map", "es/set"],
-      }),
+      // legacy({
+      //   targets: ["chrome 52"],
+      //   additionalLegacyPolyfills: ["regenerator-runtime/runtime"],
+      //   modernPolyfills: ["es.promise.finally", "es/array", "es/map", "es/set"],
+      // }),
       createSvgIconsPlugin({
         iconDirs: [path.resolve(process.cwd(), "src/assets/svg")],
         symbolId: "svg-icon-[dir]-[name]",
@@ -68,18 +68,13 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
           changeOrigin: true,
           rewrite: (path) => path.replace("/zfsoft-api", "/service-sxgl"),
         },
-        // "/zfsoft-api": {
-        //   target: "http://10.71.60.156:8081",
-        //   changeOrigin: true,
-        //   rewrite: (path) => path.replace(/^\/zfsoft-api/, ""),
-        // },
       },
     },
     esbuild: {
       pure: isBuild ? ["console.log", "debugger"] : [],
     },
     build: {
-      outDir: "survey-sxgl",
+      outDir: "lowcode-survey",
     },
   };
 };

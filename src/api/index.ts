@@ -1,22 +1,6 @@
 import request from "@/utils/request";
 
 
-// 保存功能（新）
-export const doSurveySave = (pjmbmcb_id, params: any) =>
-  request.post<any>(`/jwglxt/jw/controller/common/pjzbmbwh/insertZbmbxx?pjmbmcb_id=${pjmbmcb_id}`, params);
-
-  // {headers: {
-  //   // "Content-type": "multipart/form-data;charset=UTF-8",
-  //   "Content-Type": "application/json",
-  //   // "Content-Type": "application/x-www-form-urlencoded;",
-  // }}
-
-export const getZbdjmxxx = (params: any) =>
-  request.post<any>(`/jwglxt/jw/controller/common/pjzbmbwh/getZbdjmxxx`, params);
-
-export const getZbmbxx = (pjmbmcb_id, params: any) =>
-  request.get<any>(`/jwglxt/jw/controller/common/pjzbmbwh/getZbmbxx?pjmbmcb_id=${pjmbmcb_id}`, params);
-
 // 分页获取问卷列表
 export const getSurveyList = (params: any) =>
   request.post<any>("/wjdc/wjxx/page", params);
@@ -95,9 +79,6 @@ export const addTask = ({ type, id }) =>
   request.get<any>(`/wjdc/djda/download/${type}/${id}`);
 
 
-// 分页获取选项模板
-export const getOptMb = (params: any) =>
-request.post<any>("/api/pjgl/pjxxmb/cxPjxxmbList", params);
 
 // 问卷提交接口
 export const saveSurvey = (params: any) =>

@@ -357,8 +357,6 @@ import { getBase64Image } from "@/utils/base64";
 import { InputAttrs, TimeAttrs, UploadAttrs } from "@/components/ControlAttrs";
 import { rexFilter } from "@/utils/transform";
 
-import { getOptMb } from "@/api";
-
 import bg1 from "@/assets/background/bg1.png";
 import bg2 from "@/assets/background/bg2.png";
 import ph1 from "@/assets/page-header/ph1.png";
@@ -386,11 +384,9 @@ const optionList = ref<any[]>([]);
 getOptionList();
 
 async function getOptionList() {
-  const res = await getOptMb({
-    qyzt: "1",
-    page_size: "1000",
-  });
-  optionList.value = res?.data?.list || [];
+  // const res = await getOptMb({
+  // });
+  optionList.value = []; // 选项有可能是接口直接获取
 }
 
 const handleCloseScore = (config, batchEdit) => {

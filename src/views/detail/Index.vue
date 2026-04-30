@@ -178,19 +178,19 @@ const handleAnswerSubmit = async (values: any) => {
 
   if(ywlx == '3') {
     // 评价提交后，跳转到查看的页面 又把业务写到这里了
-    const url = `${window.location.origin}/survey-sxgl/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=3&ywid=${res?.data?.pj_id || ''}&isView=1`;
+    const url = `${window.location.origin}/lowcode-survey/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=3&ywid=${res?.data?.pj_id || ''}&isView=1`;
     location.replace(url)
   } else if(ywlx == '1') {
-    const url = `${window.location.origin}/survey-sxgl/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=2&ywid=${res?.data || ''}&isView=1`;
+    const url = `${window.location.origin}/lowcode-survey/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=2&ywid=${res?.data || ''}&isView=1`;
     location.replace(url)
   } else if(ywlx == '2') {
-    const url = `${window.location.origin}/survey-sxgl/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=2&ywid=${route.query?.ywid}&isView=1`;
+    const url = `${window.location.origin}/lowcode-survey/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=2&ywid=${route.query?.ywid}&isView=1`;
     location.replace(url)
   } else if(ywlx == '4') {
-    const url = `${window.location.origin}/survey-sxgl/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=5&ywid=${res?.data || ''}&isView=1`;
+    const url = `${window.location.origin}/lowcode-survey/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=5&ywid=${res?.data || ''}&isView=1`;
     location.replace(url)
   } else if(ywlx == '5') {
-    const url = `${window.location.origin}/survey-sxgl/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=5&ywid=${route.query?.ywid}&isView=1`;
+    const url = `${window.location.origin}/lowcode-survey/#/detail?wjmbb_id=${route.query?.wjmbb_id}&ywlx=5&ywid=${route.query?.ywid}&isView=1`;
     location.replace(url)
   }
 
